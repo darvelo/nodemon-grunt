@@ -20,11 +20,11 @@ Place `nodemon-grunt.sh` into your project's root directory along with your `Gru
 
 # Shell commands
 
-These commands can be used in a standard `bash` terminal to run the script in different ways. "./" denotes the current directory, a prefix to the command that allows you to run the script when you `cd` to the project root.
+These commands can be used in a standard `bash` terminal to run the script in different ways. `./` denotes the current directory, a prefix to the command that allows you to run the script when you `cd` to the project root.
 
-`./nodemon-grunt.sh start` - Start the nodemon grunt process in the terminal where it can be monitored.
-`./nodemon-grunt.sh restart` - Restart the nodemon grunt process, whether it was started in a Terminal or through Sublime.
-`./nodemon-grunt.sh kill` - Kill the nodemon grunt process from another terminal.
+* `./nodemon-grunt.sh start` - Start the nodemon grunt process in the terminal where it can be monitored.
+* `./nodemon-grunt.sh restart` - Restart the nodemon grunt process, whether it was started in a Terminal or through Sublime. Any input typed into the terminal window (and then pressing enter) will also restart the process. The specific input combination can be changed by editing the `$input` check in `nodemon-grunt.sh`.
+* `./nodemon-grunt.sh kill` - Kill the nodemon grunt process from another terminal.
 
 `Ctrl+c` can be used to kill the process from the same terminal window/tab.
 
@@ -53,8 +53,6 @@ The shell commands can also be invoked through Sublime keyboard shortcuts.
 
 These handy keyboard shortcuts are available to start, stop, and restart your nodemon process from within Sublime. The defaults are meant not to conflict with Sublime's default keybindings, and can be modified as you wish by altering your User settings. These can be found by going to `Preferences->Key Bindings - User` in Sublime.
 
-`Super+Alt+B` - Start the nodemon process in the Sublime console where it can be monitored. An alias for this keybinding is of course the Sublime `build` keyboard shortcut, which defaults to `Ctrl+B`. Please keep in mind that pressing Esc will close the Sublime console, but not kill the nodemon grunt process.
-
-`Super+Alt+R` - Restart the nodemon grunt process, whether it was started in a Terminal or through Sublime.
-
-`Super+Alt+C` - Kill the nodemon grunt process.
+* `Super+Alt+B` - Start the nodemon process in the Sublime console where it can be monitored. An alias for this keybinding is of course the Sublime `build` keyboard shortcut, which defaults to `Ctrl+B`. Please keep in mind that pressing Esc will close the Sublime console, but not kill the nodemon grunt process.
+* `Super+Alt+R` - Restart the nodemon grunt process, whether it was started in a Terminal or through Sublime.
+* `Super+Alt+C` - Kill the nodemon grunt process.
