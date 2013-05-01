@@ -1,0 +1,24 @@
+{
+  "shell": true,
+  "cmd": ["./nodemon-grunt.sh start"],
+  "selector": ["source.js"],
+  "path": "$HOME/.nvm_bin_alias:/usr/local/bin:$PATH",
+  "working_dir": "$project_path",
+
+  "variants": [
+    {
+      "cmd": ["./nodemon-grunt.sh kill"],
+      "path": "$HOME/.nvm_bin_alias:/usr/local/bin:$PATH",
+      "working_dir": "$project_path",
+      "shell": true,
+      "name": "Kill"
+    },
+    {
+      "cmd": ["./nodemon-grunt.sh restart"],
+      "path": "$HOME/.nvm_bin_alias:/usr/local/bin:$PATH",
+      "working_dir": "$project_path",
+      "shell": true,
+      "name": "Restart"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+[
+  { "keys": ["super+alt+b"], "command": "build" },
+  { "keys": ["super+alt+c"], "command": "build", "args": {"variant": "Kill"} },
+  { "keys": ["super+alt+r"], "command": "build", "args": {"variant": "Restart"} }
+]
