@@ -51,6 +51,8 @@ This will instruct nvm to create a file named `.nvm_bin_alias` in your $HOME dir
 
 The shell commands can also be invoked through Sublime keyboard shortcuts.
 
+Merge the key-value pairs in the relevant `.sublime-keymap` files into the files of the same name in your Packages/User directory. If the file doesn't exist, you can simply copy the `.sublime-keymap` file into the Packages/User directory for Sublime to pick up the keybindings.
+
 These handy keyboard shortcuts are available to start, stop, and restart your nodemon process from within Sublime. The defaults are meant not to conflict with Sublime's default keybindings, and can be modified as you wish by altering your User settings. These can be found by going to `Preferences->Key Bindings - User` in Sublime.
 
 * `Super+Alt+B` - Start the nodemon process in the Sublime console where it can be monitored. An alias for this keybinding is of course the Sublime `build` keyboard shortcut, which defaults to `Ctrl+B`. Please keep in mind that pressing Esc will close the Sublime console, but not kill the nodemon grunt process.
