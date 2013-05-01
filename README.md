@@ -22,7 +22,7 @@ Place `nodemon-grunt.sh` into your project's root directory along with your `Gru
 
 These commands can be used in a standard `bash` terminal to run the script in different ways. `./` denotes the current directory, a prefix to the command that allows you to run the script when you `cd` to the project root.
 
-* `./nodemon-grunt.sh start` - Start the nodemon grunt process in the terminal where it can be monitored.
+* `./nodemon-grunt.sh` or `./nodemon-grunt start` - Start the nodemon grunt process in the terminal where it can be monitored.
 * `./nodemon-grunt.sh restart` - Restart the nodemon grunt process, whether it was started in a Terminal or through Sublime. Any input typed into the terminal window (and then pressing enter) will also restart the process. The specific input combination can be changed by editing the `$input` check in `nodemon-grunt.sh`.
 * `./nodemon-grunt.sh kill` - Kill the nodemon grunt process from another terminal.
 

@@ -121,7 +121,7 @@ restartAny () {
 trap cleanExitLocal SIGTERM SIGINT
 
 # start server with nodemon
-if [[ "$1" == "start" ]]; then
+if [[ "$1" == "start" || "$1" == "" ]]; then
   cleanExitRemote
   startNormal
 fi
