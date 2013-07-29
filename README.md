@@ -1,3 +1,5 @@
+**Warning:** This repository is no longer maintained. It's recommended to use [grunt-express-workflow](https://github.com/appleYaks/grunt-express-workflow) for a simpler way to manage a grunt/node project.
+
 # What is it
 
 This is a script that will allow you to run your `grunt server` command through nodemon, enabling you to modify your node.js server files and have your backend server instantly restarted to reflect the changes. With the files in this repository, you will be able to do this either through your standard *nix bash terminal, or through keyboard shortcuts in Sublime Text 2. If you're running your grunt server with Express, you'll find this especially helpful. node-inspector is also started so that you can debug your server code from within WebKit Inspector, just like you do on the frontend. :)
