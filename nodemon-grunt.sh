@@ -39,8 +39,10 @@ readStdinForever () {
 
 startNormal () {
   echo "Starting nodemon grunt server from bash shell"
-  $GRUNT compass:server
-  $GRUNT handlebars:app
+
+  # Run any scripts or grunt tasks needed before `grunt server` is run. Examples:
+  # $GRUNT compass:server
+  # $GRUNT handlebars:app
 
   # start nodemon
   { coproc nodemon { $NODEMON --debug $GRUNT server ;} >&3 2>&4 ;} 3>&1 4>&2
